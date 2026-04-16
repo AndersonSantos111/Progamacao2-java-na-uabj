@@ -6,3 +6,4 @@ Este repositório é dedicado à prática de Java na disciplina de Programação
 - [Prática 01](aulaPratica01)
 - [Prática 02](aulaPratica02)
 - [Prática 03](aulaPratica03)
+- [Prática 04](aulaPratica04/)
