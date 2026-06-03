@@ -1,17 +1,15 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Funcionario {
     Scanner scanner = new Scanner(System.in);
-    public static ArrayList <Funcionario> funcionarios = new ArrayList <> ();
 
-    private String nome, cpf, dataNacimento;
+    private String nome, cpf, dataNascimento;
     private double salario;
 
     public Funcionario(String nome, String cpf, String dataNascimento, double salario){
         this.nome =  nome;
         this.cpf = cpf;
-        this.dataNacimento = dataNascimento;
+        this.dataNascimento = dataNascimento;
         this.salario = salario;
     }
 
@@ -32,11 +30,11 @@ public class Funcionario {
     }
 
     public String getDataNacimento() {
-        return dataNacimento;
+        return dataNascimento;
     }
 
     public void setDataNacimento(String dataNacimento) {
-        this.dataNacimento = dataNacimento;
+        this.dataNascimento = dataNacimento;
     }
 
     public double getSalario() {
@@ -45,15 +43,5 @@ public class Funcionario {
 
     public void setSalario(double salario) {
         this.salario = salario;
-    }
-
-
-    public void addGerente() {
-        
-        funcionarios.add(new Gerente());
-    }
-
-    public void addAtendente() {
-        funcionarios.add(new Atendente());
     }
 }
